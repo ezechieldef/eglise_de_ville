@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "433055468517",
+    "project_id": "eglise-de-ville-57116",
+    "storage_bucket": "eglise-de-ville-57116.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:433055468517:android:8fe967cb5f598181dcfd0c",
+        "android_client_info": {
+          "package_name": "org.nativescript.EGLISEDEVILLE"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "433055468517-06inrfitnqg3rkdnag346g663k1mb30v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.nativescript.EGLISEDEVILLE",
+            "certificate_hash": "cd361bdd754706793ac6e8eb2773fc8a1ee9d694"
+          }
+        },
+        {
+          "client_id": "433055468517-dub5kmona1cr6i4ojotoejnogvnp0f3t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.nativescript.EGLISEDEVILLE",
+            "certificate_hash": "e31658572491e185cdaedeabf49f009be4e0fbb4"
+          }
+        },
+        {
+          "client_id": "433055468517-i3jvbh1d110t9mvm2bk4pdkkaghgp2fo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYauS1ufOv78AE2EMdyHzYlzohb8BFfv4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "433055468517-i3jvbh1d110t9mvm2bk4pdkkaghgp2fo.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "433055468517-p8bd77vpnc83s0rkc08esvnqqlbt7tnu.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.egliseDeVille"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

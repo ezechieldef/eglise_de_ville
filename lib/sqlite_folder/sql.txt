@@ -1,0 +1,45 @@
+
+DROP TABLE IF EXISTS Enseignement;
+CREATE TABLE Enseignement (
+  id INTEGER,
+  Titre TEXT,
+  Verset TEXT,
+  Contenu TEXT,
+  Date TEXT,
+  PRIMARY KEY (id AUTOINCREMENT)
+);
+
+
+DROP TABLE IF EXISTS Gallery;
+CREATE TABLE Gallery (
+  id INTEGER,
+  Lien TEXT,
+  Description TEXT DEFAULT '-',
+  Date TEXT,
+  PRIMARY KEY (id AUTOINCREMENT)
+) ;
+
+
+DROP TABLE IF EXISTS Lyrics;
+CREATE TABLE Lyrics (
+  id INTEGER ,
+  Titre TEXT,
+  Audio TEXT DEFAULT '',
+  Contenu TEXT,
+  Date TEXT NOT NULL DEFAULT current_timestamp(),
+  PRIMARY KEY (id AUTOINCREMENT)
+) ;
+
+
+DROP TABLE IF EXISTS Programme;
+CREATE TABLE Programme (
+  id INTEGER ,
+  Titre TEXT,
+  Description TEXT,
+  Date TEXT NOT NULL,
+  Heure_Debut time NOT NULL,
+  Heure_Fin time NOT NULL,
+  Repetition varchar(50)  NOT NULL,
+  Personne_Cible varchar(100)  NOT NULL DEFAULT 'TOUS',
+  PRIMARY KEY (id AUTOINCREMENT)
+) ;
